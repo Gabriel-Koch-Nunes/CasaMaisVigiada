@@ -59,19 +59,19 @@ import javax.swing.JOptionPane;
             jogadores.add(new Jogador("Wanessa Camargo"));
             jogadores.add(new Jogador("Yasmin Brunet"));
 
-            String votar = "";
+            String votoEm = "";
             int totalVotos = 0;
 
 
-            while (!votar.equalsIgnoreCase("sair")) {
+            while (!votoEm.equalsIgnoreCase("sair")) {
                 votar= JOptionPane.showInputDialog(null,
                         "Quem você vota para sair da casa?");
 
-                if (!votar.equalsIgnoreCase("sair")) {
+                if (!votoEm.equalsIgnoreCase("sair")) {
                     boolean votou = false;
 
                     for (Jogador jogador : jogadores) {
-                        if (votar.equalsIgnoreCase(jogador.getNome())) {
+                        if (votoEm.equalsIgnoreCase(jogador.getNome())) {
                             jogador.incrementaUmVoto();
                             totalVotos++;
                             votou = true;
