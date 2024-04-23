@@ -25,7 +25,7 @@ import javax.swing.JOptionPane;
         }
     }
 
-    public class CasaMaisVigiadaInterface {
+    public class MinhaProvaInterface {
 
         public static void main(String[] args) {
             ArrayList<Jogador> jogadores = new ArrayList<>();
