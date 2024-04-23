@@ -66,7 +66,7 @@ public class CasaMaisVigiada {
             // Apresentar menu de opções
             System.out.println("**********************");
             System.out.println("\n\nVotação BBB");
-            System.out.println("1. Em Quem você Vota");
+            System.out.println("1. Em Quem você Vota?");
             System.out.println("2. Exibir participante com mais votos");
             System.out.println("3. Sair");
             System.out.println("**********************");
